@@ -1,10 +1,12 @@
 {
   "scripts": {
-    "start": "live-server . --port=4000 --host=localhost --no-browser",
-    "format": "prettier --write ."
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "format": "prettier . --check"
   },
   "devDependencies": {
-    "live-server": "^1.2.2",
-    "prettier": "^3.6.2"
+    "prettier": "^3.6.2",
+    "vite": "^7.2.4"
   }
 }
