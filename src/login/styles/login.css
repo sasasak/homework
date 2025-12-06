@@ -1,1 +1,81 @@
-/* CSS를 활용하여 레이아웃 및 스타일링을 완성해주세요 */
+:root {
+  --default-fontsize: 1rem;
+  --default-fontcolor: #121212;
+}
+:focus {
+  outline-color: #24388d;
+}
+
+.naver-logo {
+  display: block;
+  inline-size: 14.375rem;
+  margin-inline: auto;
+  margin-bottom: 30px;
+}
+
+.login-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: auto;
+}
+
+.login-set label,
+.login-set input {
+  width: 100%;
+  box-sizing: border-box;
+  margin-block: 5px;
+}
+
+#login-button {
+  background: #03cf5d;
+  margin-top: 20px;
+  color: #fff;
+  border: 1px solid #dadada;
+}
+.ip-security-state {
+  display: flex;
+  flex-direction: row;
+}
+
+#user-id,
+#user-password {
+  font-size: 0.875rem;
+  block-size: 2.8125rem;
+  background: #fff;
+  border: 1px solid #dadada;
+}
+
+#user-id:focus,
+#user-password:focus {
+  border: 2px solid blue;
+  outline-color: #03cf5d;
+  background: #e9f0fd;
+}
+
+#login-button {
+  font-size: var(--default-fontsize);
+  block-size: 2.8125rem;
+}
+
+.ip-security-state {
+  padding-top: 10px;
+}
+
+@media (max-width: 48rem) {
+  .login-form {
+    inline-size: 100%;
+    padding-inline: 20px;
+  }
+  .ip-security-on-off,
+  .mobile-hidden {
+    display: none;
+  }
+}
+
+@media (min-width: 48.0625rem) {
+  .login-form {
+    inline-size: 31.25rem;
+    padding-inline: 20px;
+  }
+}
