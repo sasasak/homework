@@ -77,37 +77,37 @@
 }
 
 .apple-card.ipad-pro {
-  background: url(./products/ipad_pro_wide.jpeg) no-repeat;
+  background: url(../products/ipad_pro_wide.jpeg) no-repeat;
   background-size: cover;
   background-position: center;
 }
 .apple-card.ipad-air {
-  background: url(./products/ipad_air_wide.jpeg) no-repeat;
+  background: url(../products/ipad_air_wide.jpeg) no-repeat;
   background-size: cover;
   background-position: center;
 }
 .apple-card.iphone15-pro {
-  background: url(./products/iphone15_pro_wide.jpeg) no-repeat;
+  background: url(../products/iphone15_pro_wide.jpeg) no-repeat;
   background-size: cover;
   background-position: center;
 }
 .apple-card.iphone15 {
-  background: url(./products/iphone15.jpeg) no-repeat;
+  background: url(../products/iphone15.jpeg) no-repeat;
   background-size: cover;
   background-position: center;
 }
 .apple-card.apple-watch {
-  background: url(./products/apple_watch.jpeg) no-repeat;
+  background: url(../products/apple_watch.jpeg) no-repeat;
   background-size: cover;
   background-position: center;
 }
 .apple-card.macbook-air {
-  background: url(./products/macbook_air.jpeg) no-repeat;
+  background: url(../products/macbook_air.jpeg) no-repeat;
   background-size: cover;
   background-position: center;
 }
 .apple-card.airpods-pro {
-  background: url(./products/airpods_pro.jpeg) no-repeat;
+  background: url(../products/airpods_pro.jpeg) no-repeat;
   background-size: cover;
   background-position: center;
 }
